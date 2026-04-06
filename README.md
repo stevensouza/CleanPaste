@@ -11,11 +11,14 @@ Normal **Cmd+V** is completely untouched.
 
 ### Example
 
-Input:
-> China's Ministry of Education (https://www.chinatalk.media/p/article?utm_source=test) released a white paper.
+Clipboard contents (copied from a newsletter):
+> ChatGPT (https://help.openai.com/en/articles/20001153-using-chatgpt-in-carplay?utm_source=www.theneurondaily.com&utm_medium=referral&utm_campaign=ai-did-what-for-20k) now works in Apple CarPlay, so you can have a full voice conversation with it hands-free while you drive. Just connect your iPhone (iOS 26.4+) and tap New Voice Chat.
 
-Cmd+Shift+V pastes:
-> China's Ministry of Education released a white paper.
+**Cmd+V** pastes the full text as-is (with the URL):
+> ChatGPT (https://help.openai.com/en/articles/20001153-using-chatgpt-in-carplay?utm_source=www.theneurondaily.com&utm_medium=referral&utm_campaign=ai-did-what-for-20k) now works in Apple CarPlay, so you can have a full voice conversation with it hands-free while you drive. Just connect your iPhone (iOS 26.4+) and tap New Voice Chat.
+
+**Cmd+Shift+V** pastes with the parenthesized URL stripped:
+> ChatGPT now works in Apple CarPlay, so you can have a full voice conversation with it hands-free while you drive. Just connect your iPhone (iOS 26.4+) and tap New Voice Chat.
 
 ## Build & Install
 
